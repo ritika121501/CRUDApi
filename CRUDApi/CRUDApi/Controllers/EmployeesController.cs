@@ -51,7 +51,7 @@ namespace CRUDApi.Controllers
 
             foreach (Employee employee in employee_col)
             {
-                _logger.Log(LogLevel.Information, "Collection -" + employee.FirstName);
+                _logger.Log(LogLevel.Information, "Collection --" + employee.FirstName);
             }
 
             foreach (Employee employee in employee_li)
